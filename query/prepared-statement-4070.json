@@ -1,8 +1,8 @@
 {
   "metadata": {
     "http_status": 500,
-    "description": "This case is representative of a response a prepared statement request which has an unknown plan.",
-    "reproduction": "Send a prepared statement request to the server where the uuid in the prepared field is unknown to the server.",
+    "description": "This case is representative of a response a prepared statement request which has an illegal plan.",
+    "reproduction": "Send a prepared statement request to the server where the encoded_plan field is illegal.",
     "expectation": "When enhanced prepared statements are not in use then retry",
     "server_version": "6.0"
   },
