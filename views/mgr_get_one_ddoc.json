@@ -8,7 +8,7 @@
   "data": {
     "views": {
       "test": {
-        "map": "function (doc, meta) {\n\t\t\t\t\t\t  emit(meta.id, null);\n\t\t\t\t\t\t}",
+        "map": "function (doc, meta) {\nemit(meta.id, null);\n}",
         "reduce": "_count"
       }
     }
